@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectName": "ember-enterprise",
+  "packages": [
+    {
+      "name": "@embroider/addon-blueprint",
+      "version": "3.0.0",
+      "blueprints": [
+        {
+          "name": "@embroider/addon-blueprint",
+          "isBaseBlueprint": true,
+          "options": [
+            "--ci-provider=github",
+            "--pnpm",
+            "--typescript"
+          ]
+        }
+      ]
+    }
+  ]
+}

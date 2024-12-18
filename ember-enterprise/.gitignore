@@ -5,7 +5,6 @@
 /LICENSE.md
 
 # compiled output
-dist/
 declarations/
 
 # npm/pnpm/yarn pack output

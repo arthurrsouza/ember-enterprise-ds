@@ -1,7 +1,7 @@
 import Component from '@glimmer/component';
 import { action } from '@ember/object';
 
-import './ent-button.css';
+// import './ent-button.css';
 
 interface EntButtonComponentSignatures {
   Element: HTMLTableElement;

@@ -50,8 +50,8 @@
   },
   "dependencies": {
     "@embroider/addon-shim": "^1.8.9",
-    "decorator-transforms": "^2.2.2",
-    "@glimmer/component": "^1.1.2"
+    "@glimmer/component": "^2.0.0",
+    "decorator-transforms": "^2.2.2"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -97,6 +97,8 @@
     "eslint-plugin-import": "^2.30.0",
     "eslint-plugin-n": "^17.10.3",
     "eslint-plugin-prettier": "^5.2.1",
+    "fs-extra": "^11.3.0",
+    "glob": "^11.0.1",
     "prettier": "^3.3.3",
     "prettier-plugin-ember-template-tag": "^2.0.2",
     "rollup": "^4.22.5",

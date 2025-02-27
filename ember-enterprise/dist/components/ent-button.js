@@ -1,5 +1,6 @@
 import Component from '@glimmer/component';
 import { action } from '@ember/object';
+import './ent-button.css';
 import { precompileTemplate } from '@ember/template-compilation';
 import { n } from 'decorator-transforms/runtime';
 import { setComponentTemplate } from '@ember/component';

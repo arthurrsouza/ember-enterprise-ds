@@ -6,6 +6,7 @@ export default {
   mode:'development',
   resolve: {
     modules: [path.resolve('./'), 'node_modules'],
+    fallback: {"crypto": false},
     alias: {
       '@ember': path.resolve('./node_modules/ember-source/dist/packages/@ember')
     }
@@ -16,7 +17,7 @@ export default {
       filename: "mfe/remoteEntry.js",
       exposes: {
         './EntButtonComponent': './dist/components/ent-button.js',
-      }
+      },
     }),
   ],
   output: {

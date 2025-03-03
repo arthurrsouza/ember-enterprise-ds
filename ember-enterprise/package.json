@@ -50,7 +50,10 @@
   },
   "dependencies": {
     "@embroider/addon-shim": "^1.8.9",
-    "@glimmer/component": "^2.0.0",
+    "@glimmer/component": "^1.1.2",
+    "@glimmer/application": "^1.1.2",
+    "@glimmer/compiler": "^0.94.8",
+    "@glimmer/bundle-compiler": "^0.44.0",
     "decorator-transforms": "^2.2.2"
   },
   "devDependencies": {
